@@ -21,9 +21,9 @@ bash dotfiles_assign.sh
 cd ~/
 
 #Download GRAV
-wget https://github.com/download/core/grav-admin/1.5.4 -o grav-admin-1.5.4.zip
+wget https://github.com/download/skeltons/blog-site/2.0.0 -o grav-skeltons-blog-site-2.0.0.zip
 echo ""
-echo "grav-admin.zip was downloaded! Unzip and install!"
+echo "grav-skeltons-blog-site-2.0.0.zip was downloaded! Unzip and install!"
 
 
 #display rest steps
