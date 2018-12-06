@@ -1,13 +1,14 @@
 #!/bin/bash
 #pkg update & install minimal pkg
 sudo apt update -y && sudo apt upgrade -y 
-sudo apt vim git ufw nginx 
+sudo apt install -y vim git ufw nginx 
 
 #Fix "unable to resolve HOSTNAME"
 sudo vim /etc/hostname
 sudo sh -c 'echo 127.0.1.1 $(hostname) >> /etc/hosts'
 
 #ufw setting
+sudo ufw enable
 sudo ufw allow 80/tcp 
 sudo ufw allow 443/tcp
 
