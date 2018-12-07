@@ -18,7 +18,7 @@ git config --global user.nema "nesosuke"
 mkdir ~/git 
 git clone https://github.com/nesosuke/dotfiles_assign ~/git/dotfiles_assgin
 cd ~/git/dotfiles_assign
-bash dotfiles_assign.sh
+sh dotfiles_assign.sh
 cd ~/
 
 #Download GRAV
