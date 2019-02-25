@@ -22,12 +22,12 @@ sh dotfiles_assign.sh
 cd ~/
 
 #Download GRAV
-wget https://github.com/download/skeltons/blog-site/2.0.0 -o grav-skeltons-blog-site-2.0.0.zip
-echo ""
-echo "grav-skeltons-blog-site-2.0.0.zip was downloaded! Unzip and install!"
+#wget https://github.com/download/skeltons/blog-site/2.0.0 -o grav-skeltons-blog-site-2.0.0.zip
+#echo ""
+#echo "grav-skeltons-blog-site-2.0.0.zip was downloaded! Unzip and install!"
 
 
-#display rest steps
+#display other steps
 echo ""
 echo "Your rest work --> fix sshd_config: DISABLE PermitRootLogin  / CHANGE port 22 / REGISTER your pubkey" 
 
