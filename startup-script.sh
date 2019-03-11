@@ -14,7 +14,7 @@ sudo ufw allow 443/tcp
 
 #dotfiles assign
 git config --global user.email "nesosuke@gmail.com"
-git config --global user.nema "nesosuke"
+git config --global user.name "nesosuke"
 mkdir ~/git 
 git clone https://github.com/nesosuke/dotfiles_assign ~/git/dotfiles_assgin
 cd ~/git/dotfiles_assign
