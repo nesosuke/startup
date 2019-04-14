@@ -16,10 +16,9 @@ sudo ufw allow 443/tcp
 git config --global user.email "nesosuke@gmail.com"
 git config --global user.name "nesosuke"
 mkdir ~/git 
-git clone https://github.com/nesosuke/dotfiles_assign ~/git/dotfiles_assgin
-cd ~/git/dotfiles_assign
-sh dotfiles_assign.sh
-cd ~/
+git clone https://github.com/nesosuke/dotfiles_assign ~/git/dotfiles_assign
+~/git/dotfiles_assign/dotfiles_assign.sh
+
 
 #Download GRAV
 #wget https://github.com/download/skeltons/blog-site/2.0.0 -o grav-skeltons-blog-site-2.0.0.zip
