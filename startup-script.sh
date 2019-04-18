@@ -17,7 +17,7 @@ git config --global user.email "nesosuke@gmail.com"
 git config --global user.name "nesosuke"
 mkdir ~/git 
 git clone https://github.com/nesosuke/dotfiles ~/git/dotfiles
-~/git/dotfiles_assign/dotfiles_assign.sh
+~/git/dotfiles/dotfiles_assign.sh
 
 
 #Download GRAV
